@@ -1,0 +1,11 @@
+ create table DOCTORAPPOINTMENT(appointmentId number(10),patientName varchar(20),phoneNumber varchar(15),dateOfAppointment date,email varchar(30),age number(5),gender varchar(15),problemName varchar(30),doctorName varchar(30),appointmentStatus varchar(15));
+ 
+ create sequence appoint_seq start with 1001 nocycle nocache;
+ 
+ create table PROBLEMLIST(DOCTORNAME varchar(30),problem varchar(20));
+ 
+ insert into problemlist values('brijesh kumar','heart');
+ 
+ insert into problemlist values('shradha singh','gynecology');
+ 
+ insert into problemlist values('&DOCTORNAME','&PROBLEM');
